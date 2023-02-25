@@ -252,6 +252,25 @@
         }
       ]
     },
+    {
+      "description": "enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": ["control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    },
 
     {
       "description": "KOR ctrl-k",
